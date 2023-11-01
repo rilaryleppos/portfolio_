@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-color: #d9d9d9;
+}
+
+.menu-itens {
+    font-family: Montserrat;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;   
+}
+
+a {
+    font-weight: 600;
+    color: #3d1d1d;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    padding: 1rem;    
+}
+
+.titulo-principal::before{
+    content: "";
+    background: #664444;
+    opacity: 15%;
+    width: 97%;
+    height: 2.5px;
+    position: absolute;
+    border-radius: 5px;
+    top: 3rem;
+    left: 1rem;
+}
+
+.titulo-principal{
+    font-family: Poppins;
+    color: #3d1d1d;
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-top: 3rem; 
+    margin-left: 3rem;
+    grid-column: 1/-1;
+}
+
+.paragrafo-principal{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    grid-column: 1;
+    margin-top: -1rem; 
+    margin-left: 4rem;
+}
+
+.header-nome{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logomarca-flor{
+    max-width: 70%;
+    display: grid;
+    grid-column: 3;
+    margin-top: -6rem; 
+    margin-right: 3rem;
+}
+
+.apresentaçao{
+    display: flex;
+}
+
+.subtitulo-apresentaçao{
+    text-transform: capitalize;
+
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.subtitulo-apresentaçao p{
+    width: 700px;
+}
+
+.foto-perfil{
+    max-width: 20%;
+    margin-left: 10rem;
+    
+}
+
+
+
+.footer p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-bottom: 5px;
+    color: rgba(34, 14, 14, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
