@@ -1,0 +1,12 @@
+.footer p{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; 
+   margin-bottom: 5px;
+   color: rgba(34, 14, 14, 0.50);
+   font-family: Montserrat;
+   font-size: 14px;    
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}

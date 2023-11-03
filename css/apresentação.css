@@ -1,0 +1,18 @@
+.apresentaçao{
+   display: flex;
+}
+
+.subtitulo-apresentaçao{
+   text-transform: capitalize;
+   margin-left: 5rem;
+   margin-top: 5rem;
+}
+
+.subtitulo-apresentaçao p{
+   width: 700px;
+}
+
+.foto-perfil{
+   max-width: 20%;
+   margin-left: 10rem;   
+}

@@ -1,0 +1,49 @@
+.titulo{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+
+.titulo-principal::before{
+   content: "";
+   background: #664444;
+   opacity: 15%;
+   width: 97%;
+   height: 2.5px;
+   position: absolute;
+   border-radius: 5px;
+   top: 3rem;
+   left: 1rem;
+}
+
+.titulo-principal{      
+   display: flex;
+   grid-template-columns: 1fr 1fr;
+   grid-column: 1;
+   font-family: Poppins;
+   color: #3d1d1d;
+   font-weight: 500;
+   font-size: 2rem;
+   text-transform: capitalize;
+   margin-top: 9rem;
+   margin-left: 9rem;
+}
+
+.paragrafo-principal{
+   grid-template-columns: 2fr 1fr;
+   grid-column: 1;
+   grid-row: inherit;
+   font-family: Montserrat; 
+   font-weight: 500;
+   font-size: 1rem;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+   margin-left: 10rem;   
+}
+
+.logomarca-flor {
+   position:relative;
+   grid-column: 2;
+   grid-row: 1;
+   margin-top: 2rem;
+}
+
