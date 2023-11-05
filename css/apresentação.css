@@ -1,5 +1,6 @@
 .apresentaçao{
    display: flex;
+   grid-template-columns: 1fr 2fr;
 }
 
 .subtitulo-apresentaçao{
@@ -8,11 +9,29 @@
    margin-top: 5rem;
 }
 
-.subtitulo-apresentaçao p{
-   width: 700px;
+.apresentaçao-subtitulo{
+   margin-left: 2rem;
+   margin-top: 4rem;
 }
 
-.foto-perfil{
-   max-width: 20%;
-   margin-left: 10rem;   
+.apresentaçao-foto-perfil{   
+   display: block;
+   margin:3rem 5rem;   
+}
+
+@media (max-width: 900px){
+   .apresentaçao{
+      display:inline-block;
+   }
+   .apresentaçao-foto-perfil{
+      display: flex;
+      max-width: 50%;
+      margin-left: 7rem;           
+   }
+
+   .apresentaçao-subtitulo p{
+      display: block;
+      flex-direction: column;
+      
+   }
 }

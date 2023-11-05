@@ -1,49 +1,49 @@
-.titulo{
-   display: grid;
-   grid-template-columns: 2fr 1fr;
-}
-
-.titulo-principal::before{
-   content: "";
-   background: #664444;
-   opacity: 15%;
-   width: 97%;
-   height: 2.5px;
-   position: absolute;
-   border-radius: 5px;
-   top: 3rem;
-   left: 1rem;
-}
-
-.titulo-principal{      
+.header{
+   max-width: 1200px;
    display: flex;
-   grid-template-columns: 1fr 1fr;
-   grid-column: 1;
-   font-family: Poppins;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-menu-itens {   
+   font-family: Montserrat;   
+   display: flex;
+   flex-wrap: wrap;   
+   justify-content: center;
+   font-weight: 600;    
+   text-transform: uppercase; 
+   gap: 10px;  
+}
+
+.header-menu-itens a {
+   font-size: 0.90rem;
    color: #3d1d1d;
-   font-weight: 500;
-   font-size: 2rem;
-   text-transform: capitalize;
-   margin-top: 9rem;
-   margin-left: 9rem;
+   text-decoration: none;  
+   padding: 15px 15px;  
+   display: block;      
 }
 
-.paragrafo-principal{
-   grid-template-columns: 2fr 1fr;
-   grid-column: 1;
-   grid-row: inherit;
-   font-family: Montserrat; 
-   font-weight: 500;
-   font-size: 1rem;
-   letter-spacing: 1px;
-   text-transform: capitalize;
-   margin-left: 10rem;   
+ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;   
 }
 
-.logomarca-flor {
-   position:relative;
-   grid-column: 2;
-   grid-row: 1;
-   margin-top: 2rem;
-}
+@media (max-width: 900px){
+   .header{
+      flex-direction: column;
+      justify-content: center;
+   }
+   .header-menu-itens {
+      font-size: 0.45rem;
+      display:flex; 
+      justify-content: center;    
+      padding: 1rem;       
+   }
 
+   .header-menu-itens a{
+      background-color: #b39a9a; 
+      border-radius: 5px;
+   }
+
+}
