@@ -12,6 +12,9 @@
 .div-apresentacao{ 
    display: inline;
    position: relative;
+   position: relative;
+   
+   position: relative;   
    
 }
 
@@ -23,6 +26,9 @@
    font-size: 3rem;   
    font-weight: 600;
    line-height: 4.5rem;
+   line-height: 4.5rem;
+   letter-spacing: 1px;
+   line-height: 4.5rem;   
    letter-spacing: 1px;
    word-wrap: break-word;
    text-align: end;
@@ -33,10 +39,9 @@
    content: "";
    position: absolute;
    width: 2rem;
-   height: 2rem;
+   height: 1.6rem;
    border-radius: 0.5rem;
    background-color: #987c7c;
-   position: absolute;
    top: 10px;
    z-index: -1;      
 }
@@ -44,9 +49,10 @@
 .apresentacao-texto{
    font-family: "Montserrat", sans-serif;
    color: #100505;
+   width: 43rem;
+   height: 24rem;
    font-size: 1rem;
    line-height: 2rem;
-   letter-spacing: 1px;
    font-weight: 400;
    margin-right: 2rem;
 }
@@ -61,19 +67,3 @@ span {
   font-weight: 700;
 }
 
-@media (max-width: 900px){
-   .apresentaçao{
-      display:inline-block;
-   }
-   .apresentaçao-foto-perfil{
-      display: flex;
-      max-width: 50%;
-      margin-left: 7rem;           
-   }
-
-   .apresentaçao-subtitulo p{
-      display: block;
-      flex-direction: column;
-      
-   }
-}

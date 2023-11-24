@@ -1,0 +1,67 @@
+.formacao-div{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+}
+
+.formacao-cursos{
+   grid-column: 1;
+   grid-row: 1;
+   position: relative;
+   display:inline;
+   margin-top: 5rem;
+   margin-left: 5rem;
+}
+
+.formacao {
+   grid-column: 2;
+   width: 25rem;   
+   font-family: "Poppins", sans-serif;
+   font-size: 6rem;
+   line-height: 6.8rem;
+   text-transform: uppercase;
+   font-weight: 500;
+   color: #664444;
+   word-wrap: break-word;
+   text-align: right; 
+   margin-left: 10rem;  
+}
+
+.titulo-formacao{
+   
+   font-family: "Montserrat", sans-serif;
+   font-weight: 700;
+   letter-spacing: 0.40px;
+   color: #100505;
+   font-size: 1.25rem;
+   line-height: 1rem;
+   text-transform: uppercase;
+}
+
+.titulo-formacao::before{
+   content: "";
+   position: absolute;
+   background-color: #492727;
+   border-radius: 4px;
+   width: 4px;
+   height: 20px;
+   left: -7px;
+}
+
+.curso-formacao {
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;
+   font-size: 1.25rem;
+   line-height: 1rem;
+   text-transform: capitalize;
+
+}
+
+.instituicao-formacao{
+   font-family: "Montserrat", sans-serif;
+   font-weight: 400;
+   font-size: 1.25rem;
+   line-height: 1rem;
+   text-transform: capitalize;
+}
+

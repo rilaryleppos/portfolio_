@@ -1,12 +1,26 @@
+.footer{
+   position: relative;
+}
+
 .footer p{
    display: flex;
    flex-wrap: wrap;
    justify-content: center; 
-   margin-bottom: 5px;
-   color: rgba(34, 14, 14, 0.50);
-   font-family: Montserrat;
-   font-size: 14px;    
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
+   margin-top: 5px;
+   color: #220e0e;
+   font-family: "Montserrat", sans-serif;
+   font-size: 1rem;    
+   font-weight: 400;   
+}
+
+.footer p::before{
+   content: "";
+   background: #664444;
+   opacity: 50%;
+   width: 97%;
+   height: 2.5px;
+   position: absolute;
+   border-radius: 5px;
+   left: 1rem;
+   top: -0.05rem;   
 }
