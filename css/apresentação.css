@@ -38,12 +38,13 @@
 .apresentaçao-subtitulo::before{
    content: "";
    position: absolute;
-   width: 2rem;
-   height: 1.6rem;
-   border-radius: 0.5rem;
+   display:inline-block;
+   width: 3rem;
+   height: 0.5rem;
+   border-radius: 0.2rem;
    background-color: #987c7c;
-   top: 10px;
-   z-index: -1;      
+   top: 0.5rem;   
+   z-index: -1; 
 }
 
 .apresentacao-texto{

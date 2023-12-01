@@ -1,7 +1,19 @@
 .formacao-div{
    display: grid;
    grid-template-columns: 1fr 1fr;
+   position: relative;
    
+}
+
+.formacao-div::after{
+   content:"";
+   position: absolute; 
+   max-width: 100%;
+   width: 45rem;
+   height: 0.45rem;
+   background-color: #583333;
+   border-radius: 10px 50px 10px 50px;
+   margin-left: 25rem;         
 }
 
 .formacao-cursos{
