@@ -10,9 +10,10 @@
    position: absolute; 
    max-width: 100%;
    width: 45rem;
-   height: 0.45rem;
+   height: 0.1rem;
+   opacity: 30%;
    background-color: #583333;
-   border-radius: 10px 50px 10px 50px;
+   border-radius: 1rem;
    margin-left: 25rem;         
 }
 

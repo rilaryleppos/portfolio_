@@ -9,10 +9,11 @@
    position: absolute; 
    max-width: 100%;
    width: 45rem;
-   height: 0.45rem;
+   height: 0.15rem;
+   opacity: 30%;
    background-color: #583333;
-   border-radius: 10px 50px 10px 50px;
-   margin-left: 25rem;         
+   border-radius: 1rem;
+   margin-left: 25rem;           
 }
 
 .titulo-contatos{   
